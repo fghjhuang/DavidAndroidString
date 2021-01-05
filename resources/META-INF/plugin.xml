@@ -1,15 +1,21 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
+  <id>com.david.androidstring</id>
   <name>DavidAndroidString</name>
-  <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <version>1.2</version>
+  <vendor email="justforjobonly@126.com" url="http://www.litehome.ltd:666/blog/">davidstudio</vendor>
 
-  <description>changa string to value/strings.xml</description>
+  <description>Android studio(4.0) strings convertor.
+    This plugin can change string in res/layout/xxx.xml to value/strings.xml.
+    This plugin is for android studio above 4.0.
+    There are 2 actions:
+  1) sortString: happens when you right click the res/layout folder in a android studio project, then this action will sort all the strings in the layout folder to the value/strings.xml file(not include the @string/xxx string)
+  2) toStringxml: happens when you right click the layout file in the layout folder in the android studio project, you need to double click or select the text you want to turn to the
+  value/strings.xml file, then it will replace the text with @stirng/layoutname_text_line num in the layout file, then the string into the value/strings.xml file</description>
 
-  <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
+  <change-notes>
+    1.0:first release
+    1.1:update desctiptions
+    1.2:update desctiptions
   </change-notes>
 
   <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
